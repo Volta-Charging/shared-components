@@ -1,10 +1,11 @@
 module.exports = {
   extends: [
     "eslint-config-volta",
+    "eslint-config-volta/environment/react.js",
     "eslint-config-volta/environment/react-native.js"
   ],
   plugins: [
-    'react',
+    'react'
   ],
   parser: "babel-eslint",
   rules: {
