@@ -1,0 +1,31 @@
+{
+  "name": "shared-components",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Stefan Martin <ste00martin@gmail.com>",
+  "description": "shared components across the volta stack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Volta-Charging/shared-components.git"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.5.0",
+    "eslint-config-volta": "https://github.com/Volta-Charging/eslint-config-volta.git",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "scripts": {
+    "lint": "eslint src example/app.js"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.9",
+    "react": "^16.5.0",
+    "recompose": "^0.30.0",
+    "styled-components": "^3.4.5"
+  }
+}
