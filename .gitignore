@@ -3,3 +3,6 @@ example/node_modules
 
 .DS_Store
 *.sw[po]
+
+build
+*.log

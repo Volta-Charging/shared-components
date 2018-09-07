@@ -1,22 +1,12 @@
 {
   "presets": [
-    ["env", {
-      "targets": {
-        "browsers": ["last 2 versions", "safari >= 7"]
-      },
-      "modules": false,
-      "useBuiltIns": true
-    }],
-    "react"
-  ],
-  "plugins": [
-    ["transform-object-rest-spread", {
-      "useBuiltIns": true
-    }],
-    ["transform-runtime", {
-      "polyfill": false,
-      "regenerator": true
-    }],
-    "babel-plugin-transform-class-properties"
+    [
+      "env",
+    {
+      "modules": false
+    }
+ ],
+    "react",
+    "stage-0"
   ]
 }

@@ -1,35 +1,41 @@
 {
-  "author": "Stefan Martin <ste00martin@gmail.com>",
+  "author": "Volta Charging",
   "description": "Shared components across the volta stack",
   "license": "MIT",
   "main": "index.js",
-  "name": "shared-components",
-  "version": "0.0.1",
+  "name": "@volta/shared-components",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/Volta-Charging/shared-components.git"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.5.0",
     "eslint-config-volta": "https://github.com/Volta-Charging/eslint-config-volta.git",
     "eslint-plugin-react": "^7.0.0",
-    "eslint": "^4.5.0",
     "lint-staged": "^7.2.2",
     "prop-types": "*",
-    "react-native": "*",
     "react": "*",
+    "react-native": "*",
     "recompose": "*",
     "styled-components": "*"
   },
   "peerDependencies": {
     "prop-types": "*",
-    "react-native": "*",
     "react": "*",
+    "react-native": "*",
     "recompose": "*",
     "styled-components": "*"
   },
   "scripts": {
-    "lint": "eslint --fix --max-warnings 0 ."
+    "lint": "eslint --fix --max-warnings 0 .",
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
   },
   "lint-staged": {
     "*.js": [
