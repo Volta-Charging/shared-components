@@ -1,5 +1,5 @@
-import Marker from './src/map/Marker'
-import Cluster from './src/map/Cluster'
 import COLOR from './src/Color'
 
-export { Marker, Cluster, COLOR}
+export { default as SiteCluster } from './src/map/Cluster'
+export { default as SiteMarker } from './src/map/Marker'
+export default COLOR
