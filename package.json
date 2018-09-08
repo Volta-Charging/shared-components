@@ -2,8 +2,9 @@
   "author": "Volta Charging",
   "description": "Shared components across the volta stack",
   "license": "MIT",
+  "main": "build/index.js",
   "name": "@volta/shared-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/Volta-Charging/shared-components.git"
