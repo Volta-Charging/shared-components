@@ -8,6 +8,7 @@ const COLOR = {
   GREY_LIGHT: '#ededed',
   GREY_MEDIUM: '#9B9B9B',
   OPAQUE: '#ffffff05', // TODO: replace with proper overlay library
+  ORANGE_DARK: '#ff562e',
   PINK: '#FF0279',
   RED: '#FF611A',
   TRANSPARENT: 'rgba(0,0,0,0)',
