@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "build/index.js",
   "name": "@volta/shared-components",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "repository": {
     "type": "git",
     "url": "git://github.com/Volta-Charging/shared-components.git"
@@ -34,7 +34,7 @@
   "scripts": {
     "lint": "eslint --fix --max-warnings 0 src/",
     "build": "babel src -d build",
-    "prepare": "yarn run build"
+    "prepublishOnly": "yarn lint && yarn run build"
   },
   "lint-staged": {
     "*.js": [
