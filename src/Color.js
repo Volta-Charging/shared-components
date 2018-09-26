@@ -13,6 +13,7 @@ const COLOR = {
   RED: '#FF611A',
   TRANSPARENT: 'rgba(0,0,0,0)',
   TURBO_TURTLE_OVERLAY: 'rgba(0, 0, 0, 0.3)',
+  BLACK_WITH_OPACITY_50:'rgba(0, 0, 0, 0.5)',
   WHITE: '#FFFFFF',
   YELLOW: '#FFBC56',
 }

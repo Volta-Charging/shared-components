@@ -1,15 +1,21 @@
-## Volta Shared Components
+# Volta Shared Components
 
-A common set of components used on Volta web platform
+ > A common set of components used on Volta web platform
 
-## Storybook
+## Storybook Usage
 
-Install project dependencies:
-```js
-yarn
-```
+1. Install project dependencies:
 
-Run Storybook Locally: 
-Terminal: `yarn storybook`
-Open "http://localhost:9001" in browser
+   ```js
+   yarn
+   ```
 
+2. Run Storybook locally:
+
+   ```js
+   yarn storybook
+   ```
+
+3. View Storybook locally in browser:
+
+   > [http://localhost:9001](http://localhost:9001)

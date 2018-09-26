@@ -16,13 +16,8 @@ export const Container = styled.div`
 `
 export const PieContainer = styled.div`
   display: flex;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
 `
 export const ClusterCount = styled.span`
   color: ${COLOR.WHITE};
