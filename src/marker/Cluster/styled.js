@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import COLOR from '../../Color'
 
-export const Container = styled.div`
+export const ClusterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,6 +15,7 @@ export const Container = styled.div`
   background-color: ${COLOR.BLACK};
 `
 export const PieContainer = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,3 +37,9 @@ export const ActiveCircle = styled.div`
   background-color: ${COLOR.BLUE};
 `
 
+export const Container = styled.div`
+  width: ${({ markerWidth }) => markerWidth}px;
+  height: ${({ markerWidth }) => markerWidth}px;
+  position: relative;
+  padding: 8px;
+`
