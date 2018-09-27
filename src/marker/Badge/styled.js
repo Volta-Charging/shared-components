@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 import COLOR from '../../Color'
+import { loadFonts } from '../../Fonts'
 
+loadFonts()
 export const Notification = styled.div`
   ${({ positionAbsolute }) => positionAbsolute && `
     position: absolute;
@@ -11,8 +13,8 @@ export const Notification = styled.div`
   width: 20px;
   height: 20px;
   font-size: 12px;
-  border-radius: 50%;
   color: ${COLOR.WHITE};
+  border-radius: 50%;
   font-family: 'MalloryMP-Book';
   background-color: ${COLOR.ORANGE_DARK};
   box-shadow: 0 2px 4px 0 ${COLOR.BLACK_WITH_OPACITY_50};

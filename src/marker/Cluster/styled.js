@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 import COLOR from '../../Color'
+import { loadFonts } from '../../Fonts'
 
+loadFonts()
 export const ClusterContainer = styled.div`
   display: flex;
   align-items: center;
@@ -24,6 +26,7 @@ export const ClusterCount = styled.span`
   color: ${COLOR.WHITE};
   letter-spacing: -0.2px;
   font-size: ${({ value }) => value > 99 ? 14 : 17}px;
+  font-family: 'MalloryMP-Book';
 `
 
 // Not currently used -- to be used for pie chart implementation
