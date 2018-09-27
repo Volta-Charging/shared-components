@@ -1,5 +1,7 @@
 const path = require("path");
+import { loadFonts } from '../../Fonts'
 
+loadFonts()
 module.exports = {
   module: {
     rules: [

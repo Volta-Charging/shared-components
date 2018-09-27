@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
 import COLOR from '../../Color'
-import { loadFonts } from '../../Fonts'
 
-loadFonts()
 export const Notification = styled.div`
   ${({ positionAbsolute }) => positionAbsolute && `
     position: absolute;

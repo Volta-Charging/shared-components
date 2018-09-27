@@ -1,8 +1,5 @@
 import styled from 'styled-components'
 
-import { loadFonts } from '../../Fonts'
-
-loadFonts()
 export const MarkerContainer = styled.div`
   display: flex;
   align-items: center;

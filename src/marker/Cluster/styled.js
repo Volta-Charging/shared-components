@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
 import COLOR from '../../Color'
-import { loadFonts } from '../../Fonts'
 
-loadFonts()
 export const ClusterContainer = styled.div`
   display: flex;
   align-items: center;
