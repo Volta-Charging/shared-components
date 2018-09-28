@@ -1,5 +1,6 @@
 const COLOR = {
   BLACK: '#000000',
+  BLACK_WITH_OPACITY_50:'rgba(0, 0, 0, 0.5)',
   BLUE_ICE: '#D4F1F7',
   BLUE_LIGHT: '#65E0FB',
   BLUE_MEDIUM: '#008BE5',
@@ -13,7 +14,6 @@ const COLOR = {
   RED: '#FF611A',
   TRANSPARENT: 'rgba(0,0,0,0)',
   TURBO_TURTLE_OVERLAY: 'rgba(0, 0, 0, 0.3)',
-  BLACK_WITH_OPACITY_50:'rgba(0, 0, 0, 0.5)',
   WHITE: '#FFFFFF',
   YELLOW: '#FFBC56',
 }
