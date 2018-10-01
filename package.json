@@ -31,7 +31,7 @@
     "styled-components": "*"
   },
   "scripts": {
-    "lint": "eslint --fix --max-warnings 0 src/",
+    "lint": "eslint --fix --max-warnings 0 src .storybook stories",
     "build": "babel src -d build",
     "prepublishOnly": "yarn lint && yarn run build",
     "storybook": "start-storybook -p 9001 -c .storybook"

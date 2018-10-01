@@ -1,4 +1,5 @@
 import { configure } from '@storybook/react'
+
 import { loadFonts } from '../src/Fonts'
 loadFonts()
 
