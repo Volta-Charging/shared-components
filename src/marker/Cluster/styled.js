@@ -15,7 +15,6 @@ export const ClusterContainer = styled.div`
   background-color: ${COLOR.BLACK};
 `
 export const PieContainer = styled.div`
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
