@@ -6,6 +6,12 @@ import MalloryMP_Light from './assets/fonts/MalloryMP/MalloryMP-Light.otf'
 import MalloryMP_Medium from './assets/fonts/MalloryMP/MalloryMP-Medium.otf'
 import MalloryMP_MediumItalic from './assets/fonts/MalloryMP/MalloryMP-MediumItalic.otf'
 
+const FONT = {
+  ARIAL: 'Arial',
+  HEVELTICA: 'Heveltica',
+  SANS_SERIF: 'sans-serif',
+}
+
 export const loadFonts = () => {
 
   return injectGlobal`
@@ -37,9 +43,9 @@ export const loadFonts = () => {
 }
 
 export const FONT_FAMILY = {
-  MALLORYMP_BOOK: 'MalloryMP-Book, Heveltica, Arial, sans-serif',
-  MALLORYMP_BOOKITALIC: 'MalloryMP-BookItalic, Helvetica, Arial, sans-serif',
-  MALLORYMP_LIGHT: 'MalloryMP_Light, Helvetica, Arial, sans-serif',
-  MALLORYMP_MEDIUM: 'MalloryMP-Medium, Helvetica, Arial, sans-serif',
-  MALLORYMP_MEDIUMITALIC: 'MalloryMP_MediumItalic, Helvetica, Arial, sans-serif',
+  MALLORYMP_BOOK: `MalloryMP-Book, ${FONT.HEVELTICA}, ${FONT.ARIAL}, ${FONT.SANS_SERIF}`,
+  MALLORYMP_BOOKITALIC: `MalloryMP-BookItalic, ${FONT.HEVELTICA}, ${FONT.ARIAL}, ${FONT.SANS_SERIF}`,
+  MALLORYMP_LIGHT: `MalloryMP-Light, ${FONT.HEVELTICA}, ${FONT.ARIAL}, ${FONT.SANS_SERIF}`,
+  MALLORYMP_MEDIUM: `MalloryMP-Medium, ${FONT.HEVELTICA}, ${FONT.ARIAL}, ${FONT.SANS_SERIF}`,
+  MALLORYMP_MEDIUMITALIC: `MalloryMP-MediumItalic, ${FONT.HEVELTICA}, ${FONT.ARIAL}, ${FONT.SANS_SERIF}`,
 }
