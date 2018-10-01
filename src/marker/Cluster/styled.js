@@ -8,6 +8,7 @@ export const Container = styled.div`
   padding: 8px;
   position: relative;
 `
+
 export const ClusterContainer = styled.div`
   display: flex;
   align-items: center;
@@ -21,6 +22,7 @@ export const ClusterContainer = styled.div`
   background-color: ${COLOR.BLACK};
   position: relative;
 `
+
 export const PieContainer = styled.div`
   display: flex;
   align-items: center;
@@ -31,17 +33,10 @@ export const PieContainer = styled.div`
   width: 100%;
   height: 100%;
 `
+
 export const ClusterCount = styled.span`
-  
   color: ${COLOR.WHITE};
   letter-spacing: -0.2px;
   font-size: ${({ value }) => value > 99 ? 14 : 17}px;
   font-family: 'MalloryMP-Book';
-`
-
-export const Container = styled.div`
-  width: ${({ markerWidth }) => markerWidth}px;
-  height: ${({ markerWidth }) => markerWidth}px;
-  position: relative;
-  padding: 8px;
 `
