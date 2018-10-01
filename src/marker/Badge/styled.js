@@ -3,11 +3,9 @@ import styled from 'styled-components'
 import COLOR from '../../Color'
 
 export const Notification = styled.div`
-  ${({ positionAbsolute }) => positionAbsolute && `
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  `}
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 20px;
   height: 20px;
   font-size: 12px;
