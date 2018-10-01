@@ -2,8 +2,8 @@ import React from 'react'
 
 import { Notification } from './styled'
 
-const NotificationBadge = ({issues, positionAbsolute}) => issues ?
-  <Notification positionAbsolute={positionAbsolute}>
+const NotificationBadge = ({issues}) => issues ?
+  <Notification >
     {issues}
   </Notification> : null
 

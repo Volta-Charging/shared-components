@@ -9,7 +9,6 @@ storiesOf('Badge', module)
   .add('Issue', () => (
     <Badge
       issues={1}
-      positionAbsolute={false}
     >
     </Badge>
   ))
@@ -19,7 +18,6 @@ storiesOf('Marker', module)
   .add('With Notification Badge', ()=> (
     <Marker
       issues={1}
-      positionAbsolute={true}
       text={2}
     >
     </Marker>
