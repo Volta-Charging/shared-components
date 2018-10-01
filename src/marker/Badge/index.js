@@ -9,7 +9,6 @@ const NotificationBadge = ({issues}) => issues ?
 
 NotificationBadge.defaultProps = {
   issues: null,
-  positionAbsolute: true,
 }
 
 export default NotificationBadge
