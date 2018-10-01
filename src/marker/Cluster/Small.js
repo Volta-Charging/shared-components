@@ -12,8 +12,8 @@ import {
 const SmallCluster = ({ text, size, onClick, issues }) => (
   <Container markerWidth={size}>
     <NotificationBadge issues={issues}/>
-    <ClusterContainer className="container" onClick={onClick} markerWidth={size}>
-      <PieContainer className="pie-container">
+    <ClusterContainer onClick={onClick} markerWidth={size}>
+      <PieContainer>
         <ClusterCount value={text}>{text}</ClusterCount>
       </PieContainer>
     </ClusterContainer>
