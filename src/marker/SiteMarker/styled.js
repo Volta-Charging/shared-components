@@ -27,7 +27,6 @@ export const PieContainer = styled.div`
   height:${({ height, marginBottom }) => height - marginBottom}px;
 `
 export const MarkerCount = styled.span`
-  display: inline-block;
   color: ${COLOR.WHITE};
   letter-spacing: -0.2px;
   font-size: ${({ value }) => value > 99 ? 14 : 17}px;
