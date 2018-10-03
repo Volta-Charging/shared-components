@@ -44,10 +44,9 @@ class SiteMarker extends Component {
               value={100}
               width={width - 12}
               marginBottom={12}
-              />
+            />
           </PieContainer>
-          <PieContainer height={height} width={width} marginBottom={12} padding={4}
-          >
+          <PieContainer height={height} width={width} marginBottom={12} padding={4}>
             <PieChart
               fill={COLOR.BLUE_LIGHT}
               height={height - 12}
@@ -56,8 +55,7 @@ class SiteMarker extends Component {
               marginBottom={10}
             />
           </PieContainer>
-          <PieContainer height={height} width={width} marginBottom={12} padding={4}
-          >
+          <PieContainer height={height} width={width} marginBottom={12} padding={4}>
             <PieChart
               fill={COLOR.BLACK}
               height={height - 20}
@@ -66,12 +64,11 @@ class SiteMarker extends Component {
               marginBottom={12}
             />
           </PieContainer>
-          <PieContainer height={height} width={width} marginBottom={12} padding={4}
-          >
+          <PieContainer height={height} width={width} marginBottom={12} padding={4}>
             <MarkerCount>{text}</MarkerCount>
           </PieContainer>
         </MarkerContainer>
-         <NotificationBadge issues={issues}/>
+        <NotificationBadge issues={issues}/>
       </Container>
     )
   }
