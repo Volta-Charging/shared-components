@@ -14,45 +14,81 @@ storiesOf('Badge', module)
   ))
 
 storiesOf('Marker', module)
-  .add('Marker', () => <Marker text={2}></Marker>)
-  .add('With Notification Badge', ()=> (
+  .add('Marker', () => (
+    <Marker 
+      level={'L2'}
+      pie={30}
+      text={2}
+      pie1={null}
+      pie2={null}
+    >
+    </Marker>
+  ))
+  .add('with L3 only', () => (
+    <Marker 
+      level={'L3'}
+      pie={50}
+      text={2}
+      pie1={null}
+      pie2={null}
+    >
+    </Marker>
+  ))
+  .add('With Notification Badge', () => (
     <Marker
       issues={1}
       text={2}
+      pie={30}
+      pie1={null}
+      pie2={null}
+    >
+    </Marker>
+  ))
+  .add('With Large Notification Badge', () => (
+    <Marker
+      issues={2}
+      pie={null}
+      pie1={30}
+      pie2={40}
+      text={1}
     >
     </Marker>
   ))
 
 storiesOf('Cluster', module)
-  .add('Cluster', () => (
+  .add('Cluster (L2)', () => (
     <Cluster
-      text={1}
-      size={50}
+      valueL2={5}
+      valueL3={null}
+      text={3}
     >
     </Cluster>
   ))
-  .add('With Notification Badge', ()=> (
+  .add('With Notification Badge (L2)', () => (
     <Cluster
       issues={2}
       text={1}
-      size={50}
+      valueL2={5}
+      valueL3={null}
+    >
+    </Cluster>
+  ))
+  .add('Large Cluster (L3)', () => (
+    <Cluster
+      text={1}
+      valueL2={5}
+      valueL3={5}
+      text={3}
+    >
+    </Cluster>
+  ))
+  .add('With Notification Badge (L3)', () => (
+    <Cluster
+      issues={2}
+      text={1}
+      valueL2={5}
+      valueL3={6}
     >
     </Cluster>
   ))
 
-storiesOf('Pie', module)
-  .add('Pie', () => (
-    <Cluster
-      text={1}
-      size={50}
-    >
-    </Cluster>
-  ))
-  .add('With Notification Badge', ()=> (
-    <Cluster
-      issues={2}
-      text={1}
-      size={50}
-    >
-    </Cluster>
-  ))
