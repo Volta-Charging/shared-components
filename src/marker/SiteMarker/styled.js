@@ -25,6 +25,7 @@ export const PieContainer = styled.div`
   left: 0px;
   width: ${({ width }) => width}px;
   height:${({ height, marginBottom }) => height - marginBottom}px;
+
 `
 export const MarkerCount = styled.span`
   color: ${COLOR.WHITE};

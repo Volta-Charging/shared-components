@@ -5,7 +5,7 @@ import COLOR from '../../Color'
 export const Container = styled.div`
   width: ${({ markerWidth }) => markerWidth}px;
   height: ${({ markerWidth }) => markerWidth}px;
-  padding: 8px;
+  padding: 0.35em;
   position: relative;
 `
 
