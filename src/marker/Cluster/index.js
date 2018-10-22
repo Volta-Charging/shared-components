@@ -23,7 +23,7 @@ Cluster.defaultProps = {
 
 export default compose(withProps(props => ({
   hasL3: props.valueL3 !== null,
-  size: props.valueL3 ? 66 : 50,
+  size: props.valueL3 !== null ? 66 : 50,
 })),
 lifecycle({
   shouldComponentUpdate(nextProps){
