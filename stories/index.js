@@ -44,11 +44,21 @@ storiesOf('Marker', module)
     >
     </Marker>
   ))
+  .add('With No Available Chargers', () => (
+    <Marker
+      issues={2}
+      pie={null}
+      pie1={0}
+      pie2={0}
+      text={2}
+    >
+    </Marker>
+  ))
   .add('With Large Notification Badge', () => (
     <Marker
       issues={2}
       pie={null}
-      pie1={30}
+      pie1={3}
       pie2={40}
       text={1}
     >
@@ -76,8 +86,17 @@ storiesOf('Cluster', module)
   .add('Large Cluster (L3)', () => (
     <Cluster
       text={1}
-      valueL2={5}
+      valueL2={0}
       valueL3={5}
+      text={3}
+    >
+    </Cluster>
+  ))
+  .add('Large Cluster (L3) with No Available Chargers', () => (
+    <Cluster
+      text={1}
+      valueL2={0}
+      valueL3={0}
       text={3}
     >
     </Cluster>
@@ -85,8 +104,8 @@ storiesOf('Cluster', module)
   .add('With Notification Badge (L3)', () => (
     <Cluster
       issues={2}
-      text={1}
-      valueL2={5}
+      text={9}
+      valueL2={3}
       valueL3={6}
     >
     </Cluster>
