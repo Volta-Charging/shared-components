@@ -65,6 +65,7 @@ PieChart.propTypes = {
 
 PieChart.defaultProps = {
   marginBottom: 0,
+  value: 0,
 }
 
 export default PieChart
