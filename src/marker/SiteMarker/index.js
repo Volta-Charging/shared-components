@@ -13,7 +13,7 @@ class SiteMarker extends Component {
 
     this.state = {
       height: props.valueL2 !==null && props.valueL3 !== null? 61 : 50,
-      width: props.valueL2 !==null&& props.valueL3 !== null ? 47 : 39,
+      width: props.valueL2 !==null && props.valueL3 !== null ? 47 : 39,
     }
   }
 
