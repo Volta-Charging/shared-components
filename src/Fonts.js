@@ -1,10 +1,10 @@
 import { injectGlobal } from 'styled-components'
 
-import MalloryMP_Book from './assets/fonts/MalloryMP/MalloryMP-Book.otf'
-import MalloryMP_BookItalic from './assets/fonts/MalloryMP/MalloryMP-BookItalic.otf'
-import MalloryMP_Light from './assets/fonts/MalloryMP/MalloryMP-Light.otf'
-import MalloryMP_Medium from './assets/fonts/MalloryMP/MalloryMP-Medium.otf'
-import MalloryMP_MediumItalic from './assets/fonts/MalloryMP/MalloryMP-MediumItalic.otf'
+import MalloryMP_Book from '../fonts/MalloryMP-Book.otf'
+import MalloryMP_BookItalic from '../fonts/MalloryMP-BookItalic.otf'
+import MalloryMP_Light from '../fonts/MalloryMP-Light.otf'
+import MalloryMP_Medium from '../fonts/MalloryMP-Medium.otf'
+import MalloryMP_MediumItalic from '../fonts/MalloryMP-MediumItalic.otf'
 
 const BACKUP_FONTS =  'Helvetica, Arial, sans-serif'
 

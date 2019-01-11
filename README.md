@@ -5,16 +5,18 @@
 ## Storybook Install
 
 1. Install project dependencies:
+```sh
+yarn
 
-   ```js
-   yarn
-   ```
+cd ../
+git clone git@github.com:Volta-Charging/mobile.git
+cp ./mobile/android/app/src/main/assets/fonts/* shared-components/fonts/
+```
 
 2. Run Storybook locally:
-
-   ```js
-   yarn storybook
-   ```
+```sh
+yarn storybook
+```
 
 3. View Storybook locally in browser:
 
@@ -36,4 +38,4 @@ npm link ../shared-components #location of shared-components
 yarn && yarn start # run project (ie web-tools)
 ```
 
-As updates are being made under `shared-components`, a build is run and being referenced by web-tools from the `npm link`.  So any changes you make in the `shared-components` folder, you can see and test the updates in `web-tools`.  
+As updates are being made under `shared-components`, a build is run and being referenced by web-tools from the `npm link`.  So any changes you make in the `shared-components` folder, you can see and test the updates in `web-tools`.

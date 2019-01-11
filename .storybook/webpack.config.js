@@ -5,7 +5,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          outputPath: 'assets/fonts/',
+          outputPath: '../fonts/',
         },
         test: /\.(eot|woff|woff2|svg|ttf|otf)([\?]?.*)$/,
       },
