@@ -6,3 +6,8 @@ example/node_modules
 
 /build
 *.log
+/package-lock.json
+
+# Any fonts
+*.otf
+*.ttf
