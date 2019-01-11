@@ -6,3 +6,5 @@ example/node_modules
 
 /build
 *.log
+
+.git.bfg-report/
