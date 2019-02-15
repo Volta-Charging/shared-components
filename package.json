@@ -27,7 +27,6 @@
   },
   "peerDependencies": {
     "prop-types": "*",
-    "recompose": "*",
     "styled-components": "*"
   },
   "scripts": {
