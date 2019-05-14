@@ -1,6 +1,6 @@
 import React from 'react'
 import Props from 'prop-types'
-import _ from 'lodash'
+import isEqual from 'lodash/isEqual'
 import { withProps, lifecycle, compose } from 'recompose'
 
 import SmallCluster from './Small'
@@ -27,7 +27,7 @@ export default compose(withProps(props => ({
 })),
 lifecycle({
   shouldComponentUpdate(nextProps){
-    return !_.isEqual(this.props, nextProps)
+    return isEqual(this.props, nextProps)
   },
 }))
 (Cluster)
